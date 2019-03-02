@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d8aa89a6-b590-4192-ac98-e1920d5d7a0a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55166/WSartimetica.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSaritmetica.wsdl" MetadataType="Wsdl" ID="c03dc028-4a74-40b0-8c52-92bfc1a253e3" SourceId="1" SourceUrl="http://localhost:55166/WSartimetica.svc?wsdl" />
+    <MetadataFile FileName="WSartimetica.xsd" MetadataType="Schema" ID="853c9fdd-e19b-4c5d-a25b-ed6fb29dc0cf" SourceId="1" SourceUrl="http://localhost:55166/WSartimetica.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSartimetica.disco" MetadataType="Disco" ID="46539120-3bc8-4662-82eb-8c707643e54e" SourceId="1" SourceUrl="http://localhost:55166/WSartimetica.svc?disco" />
+    <MetadataFile FileName="WSartimetica1.xsd" MetadataType="Schema" ID="a18690bb-a8ed-4d78-8911-7e579a9a34f6" SourceId="1" SourceUrl="http://localhost:55166/WSartimetica.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSartimetica2.xsd" MetadataType="Schema" ID="012352af-f6b9-43da-8b41-76cd0022c643" SourceId="1" SourceUrl="http://localhost:55166/WSartimetica.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
